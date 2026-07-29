@@ -65,7 +65,6 @@ Generates a professional HTML report containing product comparisons and recommen
 - Pydantic
 - Web Scraping APIs
 - Search APIs
-- Bootstrap CSS
 
 ---
 
