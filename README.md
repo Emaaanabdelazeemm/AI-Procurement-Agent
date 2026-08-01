@@ -69,7 +69,6 @@ AI-Procurement-Agent-System/
 │
 ├── README.md
 ├── AI_Procurement_Agent_Workflow.ipynb
-├── requirements.txt
 └── output/
     └── procurement_report.html
 ```
