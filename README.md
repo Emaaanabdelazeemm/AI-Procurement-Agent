@@ -57,8 +57,8 @@ HTML Procurement Report
 - CrewAI
 - Google Gemini
 - Pydantic
-- Search APIs
-- Web Scraping APIs
+- Tavily Search API
+- ScrapeGraphAI
 
 ---
 
