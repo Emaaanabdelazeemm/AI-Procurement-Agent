@@ -1,6 +1,6 @@
-# AI Procurement Agent System
+# AI Procurement Multi-Agent System
 
-An AI-powered procurement system built with **CrewAI** and **Google Gemini** that automates product search, information extraction, comparison, and recommendation based on a **value-for-price** strategy.
+An AI-powered **multi-agent procurement system** built with **CrewAI** and **Google Gemini** that automates the entire procurement workflow. Specialized AI agents collaborate to generate search queries, search the web, extract product information, analyze and rank products, and generate a professional HTML procurement report based on a **value-for-price** strategy.
 
 ---
 
@@ -14,7 +14,7 @@ The system generates a professional HTML procurement report with product details
 
 ---
 
-## Workflow
+## Multi-Agent Workflow
 
 ```text
 Company Requirements
@@ -32,6 +32,9 @@ Web Scraping Agent
 Product Analysis Agent
         │
         ▼
+Procurement Report Agent
+        │
+        ▼
 HTML Procurement Report
 ```
 
@@ -39,12 +42,12 @@ HTML Procurement Report
 
 ## Features
 
-- Generate optimized search queries using AI.
-- Search products from e-commerce websites.
-- Extract structured product information.
-- Compare products based on price and specifications.
-- Rank products using AI analysis.
-- Generate a professional HTML procurement report.
+- Multi-agent workflow powered by CrewAI.
+- AI-generated search queries based on procurement requirements.
+- Automated web search across e-commerce websites.
+- Intelligent web scraping for structured product information.
+- AI-based product comparison and ranking.
+- Professional HTML procurement report generation.
 
 ---
 
@@ -62,7 +65,7 @@ HTML Procurement Report
 ## Project Structure
 
 ```text
-AI-Procurement-Agent/
+AI-Procurement-Agent-System/
 │
 ├── README.md
 ├── AI_Procurement_Agent_Workflow.ipynb
@@ -78,5 +81,4 @@ AI-Procurement-Agent/
 - Support additional e-commerce platforms.
 - Real-time price monitoring.
 - Product review analysis.
-- Web application deployment.
-
+- Deploy as a web application.
