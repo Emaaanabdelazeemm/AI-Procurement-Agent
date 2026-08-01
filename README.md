@@ -1,76 +1,67 @@
 # AI Procurement Agent System
 
-## Overview
+An AI-powered procurement system built with **CrewAI** and **Google Gemini** that automates product search, information extraction, comparison, and recommendation based on a **value-for-price** strategy.
 
-An AI-powered multi-agent system that automates the procurement process by searching, analyzing, and recommending the best products based on company requirements and value-for-price strategy.
+---
 
-The system uses specialized AI agents to:
-- Generate optimized search queries.
-- Search for products across e-commerce websites.
-- Extract product information automatically.
-- Compare products and generate procurement recommendations.
-- Create a professional HTML procurement report.
+## Generated Report
+
+The system generates a professional HTML procurement report with product details, pricing, and AI-powered recommendations.
+
+<p align="center">
+  <img width="900" alt="Generated Procurement Report" src="https://github.com/user-attachments/assets/6c209036-ab4e-4c21-934c-34194bca5f13" />
+</p>
 
 ---
 
 ## Workflow
 
-```
+```text
 Company Requirements
-        |
-        v
+        │
+        ▼
 Search Query Recommendation Agent
-        |
-        v
+        │
+        ▼
 Search Engine Agent
-        |
-        v
+        │
+        ▼
 Web Scraping Agent
-        |
-        v
-Product Analysis & Ranking
-        |
-        v
-Procurement Report Generation
+        │
+        ▼
+Product Analysis Agent
+        │
+        ▼
+HTML Procurement Report
 ```
 
 ---
 
 ## Features
 
-### Search Query Recommendation Agent
-Generates specific product search queries based on company needs, target country, and product requirements.
-
-### Search Engine Agent
-Finds relevant e-commerce product pages and filters irrelevant results.
-
-### Web Scraping Agent
-Extracts structured product details including:
-- Product name
-- Price
-- Specifications
-- Product URL
-- AI recommendation ranking
-
-### Procurement Report Agent
-Generates a professional HTML report containing product comparisons and recommendations.
+- Generate optimized search queries using AI.
+- Search products from e-commerce websites.
+- Extract structured product information.
+- Compare products based on price and specifications.
+- Rank products using AI analysis.
+- Generate a professional HTML procurement report.
 
 ---
 
-## Technologies Used
+## Tech Stack
 
 - Python
 - CrewAI
-- Google Gemini LLM
+- Google Gemini
 - Pydantic
-- Web Scraping APIs
 - Search APIs
+- Web Scraping APIs
 
 ---
 
 ## Project Structure
 
-```
+```text
 AI-Procurement-Agent/
 │
 ├── README.md
@@ -82,17 +73,10 @@ AI-Procurement-Agent/
 
 ---
 
-## Example Use Case
-
-A company wants to purchase a product with the best value-for-price strategy.
-
-The system automatically searches available products, extracts details, compares options, and generates a procurement report with recommendations.
-
----
-
 ## Future Improvements
 
-- Add more e-commerce platforms.
-- Implement real-time price tracking.
-- Add product review analysis.
-- Deploy as a web application.
+- Support additional e-commerce platforms.
+- Real-time price monitoring.
+- Product review analysis.
+- Web application deployment.
+
